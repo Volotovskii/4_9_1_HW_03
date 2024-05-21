@@ -1,0 +1,55 @@
+
+  .navigation-block {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px;
+
+  }
+  
+  .navigation-block ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; 
+  }
+  .navigation-block li {
+    padding: 10px ;
+    background: #ECDAD6;
+  }
+  .navigation-block a {
+    text-decoration: none;
+    padding: 1px;
+    background: rgba(177, 152, 145, .3);
+    color: #695753;
+  }
+  
+  .navigation-block a:hover {
+    color: #f00;
+  }
+
+h1{
+    text-align:center;
+}
+
+.contacts-container {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #eee;
+    margin: 10px auto;
+    position: relative;
+    text-align:center;
+    
+  }
+
+  .about-us-pro, .about-us-xm {
+ 
+    width: 50%;
+  }
+  .footer {
+    text-align: center;
+  }
